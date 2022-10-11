@@ -6,7 +6,7 @@ export const Header = () => {
 
     return (
         <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 drop-shadow-2xl">
-            <div className="relative flex items-center justify-between className='bg-neutral-400'">
+            <div className="relative flex items-center justify-between className='bg-neutral-600'">
                 <Link
                     to="/"
                     aria-label="Company"
