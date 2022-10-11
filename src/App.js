@@ -23,8 +23,10 @@ function App() {
           loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Home></Home>
         },
+
         {
           path: '/languages',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Languages></Languages>
         },
         {
