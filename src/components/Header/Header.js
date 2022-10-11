@@ -5,7 +5,7 @@ export const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 drop-shadow-2xl">
             <div className="relative flex items-center justify-between className='bg-neutral-400'">
                 <Link
                     to="/"
@@ -35,12 +35,22 @@ export const Header = () => {
                 <ul className="flex items-center hidden space-x-8 lg:flex">
                     <li>
                         <Link
-                            to="/languages"
+                            to="/home"
                             aria-label="Our product"
                             title="Our product"
                             className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                            Languages
+                            Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="/subjects"
+                            aria-label="Our product"
+                            title="Our product"
+                            className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                            Subjects
                         </Link>
                     </li>
                     <li>
@@ -148,12 +158,22 @@ export const Header = () => {
                                     <ul className="space-y-4">
                                         <li>
                                             <Link
-                                                to="/languages"
+                                                to="/home"
                                                 aria-label="Our product"
                                                 title="Our product"
                                                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                                             >
-                                                Languages
+                                                Home
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                to="/subjects"
+                                                aria-label="Our product"
+                                                title="Our product"
+                                                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                                            >
+                                                Subjects
                                             </Link>
                                         </li>
                                         <li>

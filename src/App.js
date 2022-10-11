@@ -4,9 +4,9 @@ import About from './components/About/About';
 import Blog from './components/Blogs/Blog';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Home from './components/Home/Home'
-import Languages from './components/Languages/Languages';
 import Statistics from './components/Statistics/Statistics';
 import Main from './layouts/Main'
+import Subjects from './components/Subjects/Subjects';
 
 
 
@@ -18,16 +18,16 @@ function App() {
       element: <Main></Main>,
       children: [
         {
-          path: '/',
+          path: '/home',
           errorElement: <ErrorPage />,
           loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Home></Home>
         },
 
         {
-          path: '/languages',
+          path: '/subjects',
           loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
-          element: <Languages></Languages>
+          element: <Subjects></Subjects>
         },
         {
           path: '/statistics',

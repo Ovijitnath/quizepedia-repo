@@ -1,7 +1,8 @@
 import React from 'react';
 
-import Languages from '../Languages/Languages';
+
 import SubHeader from '../SubHeader/SubHeader';
+import Subjects from '../Subjects/Subjects';
 
 const Home = () => {
 
@@ -11,7 +12,7 @@ const Home = () => {
             <div>
                 <SubHeader></SubHeader>
             </div>
-            <Languages></Languages>
+            <Subjects></Subjects>
 
         </div>
     );
