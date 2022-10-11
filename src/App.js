@@ -1,8 +1,10 @@
 import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import About from './components/About/About';
 import Blog from './components/Blogs/Blog';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Home from './components/Home/Home'
+import Languages from './components/Languages/Languages';
 import Statistics from './components/Statistics/Statistics';
 import Main from './layouts/Main'
 
@@ -22,12 +24,21 @@ function App() {
           element: <Home></Home>
         },
         {
+          path: '/languages',
+          element: <Languages></Languages>
+        },
+        {
           path: '/statistics',
           element: <Statistics></Statistics>
         },
         {
           path: '/blog',
           element: <Blog></Blog>
+
+        },
+        {
+          path: '/about',
+          element: <About></About>
         }
       ]
     }
