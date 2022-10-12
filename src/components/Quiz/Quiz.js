@@ -11,17 +11,6 @@ const Quiz = ({ quiz }) => {
     const { id, question, options, correctAnswer } = quiz
     const notify = () => toast(correctAnswer);
 
-    // const handleQuizAns = () => {
-    //     if (options.option !== correctAnswer) {
-
-    //         toast("Wrong Answer");
-    //     }
-    //     else {
-    //         toast(" Right Answer")
-    //     }
-    // };
-
-
     return (
 
         <div className='p-5 m-2 bg-neutral-300'>
@@ -48,11 +37,6 @@ const Quiz = ({ quiz }) => {
                     )
 
                 }
-
-                {/* <div>
-                    <button onClick={handleQuizAns}>{options}</button>
-                    <ToastContainer />
-                </div> */}
 
             </div>
 

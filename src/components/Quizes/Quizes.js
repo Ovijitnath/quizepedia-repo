@@ -18,7 +18,6 @@ const Quizes = () => {
                 {
                     quizes.questions.map(quiz => <Quiz key={quiz.id} quiz={quiz}></Quiz>)
                 }
-
             </div>
 
         </div>

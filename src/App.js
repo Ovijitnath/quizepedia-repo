@@ -10,7 +10,6 @@ import Subjects from './components/Subjects/Subjects';
 import Quizes from './components/Quizes/Quizes';
 
 
-
 function App() {
 
   const router = createBrowserRouter([
