@@ -1,14 +1,23 @@
 This Project's Name is- QUIZEPEDIA
-Project Live Site Link- 
-Bullet Points of the Project
-.Home is made to show  guidelines and the topics youn want to take participation for quizes which is also in the subjects section
+
+Project Live Site Link- https://quizepedia.netlify.app/
+
+Bullet Points of the Project----
+.Home is made to show  guidelines and the topics you want to take participation for quizes which is also in the subjects section
+
 .When clicking a subject, related question of that topic will appear on the screen.
+
 .After Choosing a answer, user will be notified if the answer is right or wrong.
+
 .By clicking a icon, user will see the correct answer of that question.
+
 .Blog section is created to show some asked questions answer.
+
 .About section is created to give some idea why quiz is important in real life.
-.The website is fully responsive
-.User interactive SPA website
+
+.The website is fully responsive.
+
+.User interactive SPA website.
 --------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
