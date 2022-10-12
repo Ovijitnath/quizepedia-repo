@@ -7,7 +7,7 @@ const Statistics = () => {
     const loaderData = useLoaderData()
     const stateData = loaderData.data
     return (
-        <div className='p-3 bg-neutral-300'>
+        <div className='p-3 bg-Teal-100'>
             <h1 className='fw-bolder font-black text-center text-lg'> STATISTICS</h1>
             <SingleState key={stateData.id} stateData={stateData}></SingleState>
         </div>

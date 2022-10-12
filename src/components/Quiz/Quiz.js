@@ -17,34 +17,19 @@ const Quiz = ({ quiz }) => {
             <div className='text-xl fw-bold'>
                 <h1 className='text-cyan-900'>{question.slice(3, -4)}</h1>
 
-                <FontAwesomeIcon icon={faEye} onClick={notify} />
+            </div>
+            <div className='fw-semibold'>
+                {
+                    options.map(option => <Option key={option.id} option={option}></Option>
+                    )
+                }
+            </div>
+            <div className='pt-4 text-lime-700'>
+                Correct Answer: <FontAwesomeIcon icon={faEye} onClick={notify} />
                 <ToastContainer />
             </div>
-
-            <div className='fw-semibold'>
-
-
-                {
-
-                    options.map(option => <Option key={option.id} option={option}></Option>
-                        // <div>
-                        //     <input id="windows"
-                        //         value="windows"
-                        //         name="platform"
-                        //         type="radio"
-                        //         onClick={handleQuizAns}
-                        //     />{option}  <ToastContainer /> </div>
-                    )
-
-                }
-
-            </div>
-
         </div>
-
-
     )
-
 };
 
 export default Quiz;
