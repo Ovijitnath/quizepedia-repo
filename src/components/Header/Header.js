@@ -32,7 +32,7 @@ export const Header = () => {
                         Quizepedia
                     </span>
                 </Link>
-                <ul className="flex items-center hidden space-x-8 lg:flex">
+                <ul className="flex items-center md:hidden space-x-8 lg:flex">
                     <li>
                         <Link
                             to="/home"
